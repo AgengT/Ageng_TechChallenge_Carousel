@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="projects">
+
+        <div class="slide-group">
+            <div class="slide show" data-index="0">
+                <div class="left">
+                    <div
+                    class="image"
+                    style="
+                        background-image: url('http://cdn.shopify.com/s/files/1/0565/7080/6458/collections/marble-geometry-wallpaper-mural.jpg?v=1660198030');
+                    "
+                    ></div>
+                    <div class="title">Gambar 1</div>
+                </div>
+                <div class="right">
+                    <div class="navigation">
+                    <button onclick="carouselHandler()">👈</button>
+                    <button onclick="carouselHandler(false)">👉</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" data-index="1">
+                <div class="left">
+                    <div
+                    class="image"
+                    style="
+                        background-image: url(' http://cdn.shopify.com/s/files/1/0565/7080/6458/collections/11f67cadfcdfd8784ca89aa86130c5e5.jpg?v=1660200435');
+                    "
+                    ></div>
+                    <div class="title">Gambar 2</div>
+                </div>
+                <div class="right">
+                    <div class="navigation">
+                    <button onclick="carouselHandler()">👈</button>
+                    <button onclick="carouselHandler(false)">👉</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" data-index="2">
+                <div class="left">
+                    <div
+                    class="image"
+                    style="
+                        background-image: url('https://www.wallmur.com/media/catalog/pdata/cache/1/crop_image/1100x/040ec0/s/s/blue-marble-with-red-splash-wallpaper-mural-wm-5263673741ss-41482643.jpg');
+                    "
+                    ></div>
+                    <div class="title">Gambar 3</div>
+                </div>
+                <div class="right">
+                    <div class="navigation">
+                    <button onclick="carouselHandler()">👈</button>
+                    <button onclick="carouselHandler(false)">👉</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" data-index="3">
+                <div class="left">
+                     <div
+                    class="image"
+                    style="
+                        background-image: url('https://www.wallmur.com/media/catalog/pdata/cache/1/crop_image/1100x/040ec0/s/s/soft-marble-abstract-art-wallpaper-mural-wm-5006472481ss-41485634.jpg');
+                    "
+                    ></div>
+                    <div class="title">Gambar 4</div>
+                </div>
+                <div class="right">
+                    <div class="navigation">
+                        <button onclick="carouselHandler()">👈</button>
+                        <button onclick="carouselHandler(false)">👉</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
